@@ -1,0 +1,15 @@
+artifact_uri: file:///home/adduser/genre-classification/mlruns/0/09151ccf5e814ec6a8de4f3f31f39877/artifacts
+end_time: 1643467024040
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+name: ''
+run_id: 09151ccf5e814ec6a8de4f3f31f39877
+run_uuid: 09151ccf5e814ec6a8de4f3f31f39877
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1643467008190
+status: 3
+tags: []
+user_id: adduser

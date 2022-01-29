@@ -1,0 +1,35 @@
+{
+    "os": "Linux-5.10.60.1-microsoft-standard-WSL2-x86_64-with-glibc2.10",
+    "python": "3.8.12",
+    "heartbeatAt": "2022-01-29T14:36:27.261168",
+    "startedAt": "2022-01-29T14:36:26.065369",
+    "docker": null,
+    "cpu_count": 4,
+    "cuda": null,
+    "args": [
+        "--train_data",
+        "data_train.csv:latest",
+        "--model_config",
+        "/home/adduser/nd0821-new/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/genre-classification/outputs/2022-01-29/16-35-17/random_forest_config.yml",
+        "--export_artifact",
+        "model_export",
+        "--random_seed",
+        "42",
+        "--val_size",
+        "0.3",
+        "--stratify",
+        "genre"
+    ],
+    "state": "running",
+    "program": "run.py",
+    "codePath": "random_forest/run.py",
+    "git": {
+        "remote": "https://github.com/SammyLamb7/genre-classification.git",
+        "commit": "a8062341da3564a18f2c9d84616b30c3509840e1"
+    },
+    "email": "sjmovius@gmail.com",
+    "root": "/home/adduser/nd0821-new/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/genre-classification",
+    "host": "DESKTOP-GF59VPT",
+    "username": "adduser",
+    "executable": "/home/adduser/miniconda3/envs/mlflow-259d53ab44a1e9011b0c64ae862f43343c0fc9e5/bin/python"
+}
